@@ -1,0 +1,8 @@
+name: MM_DependencyInjection
+version: '${project.version}'
+main: com.marccusz.mm_dependencyinjection.MM_DependencyInjection
+commands:
+  drop:
+    description: Config if drops go directly to your inventory
+    usage: /<command> on|off
+    permission: mm.drop
